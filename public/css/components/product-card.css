@@ -1,0 +1,24 @@
+/* product-card.css */
+
+.product-card {
+  background-color: #d9d9d9;
+}
+
+.product-card:not(:first-child) {
+  margin-top: 30px;
+}
+
+.product-card__img {
+  display: inline-block;
+}
+
+.product-card__img img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.product-card__info {
+  display: inline-block;
+}
