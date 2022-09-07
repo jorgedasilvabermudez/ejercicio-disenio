@@ -22,3 +22,7 @@
 .product-card__info {
   display: inline-block;
 }
+
+@media screen and (min-width: 1440px){
+  
+}
